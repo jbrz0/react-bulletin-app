@@ -1,0 +1,37 @@
+{
+  "name": "react-bulletin-app",
+  "version": "1.0.0",
+  "description": "React application for displaying notes inside the browser",
+  "main": "Note.js",
+  "scripts": {
+    "build": "babel js -d built",
+    "start": "http://localhost:3000 & httpster -p 3000"
+  },
+  "babel": {
+    "presets": [
+      "react"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brz0/react-bulletin-app.git"
+  },
+  "keywords": [
+    "react",
+    "javascript",
+    "board",
+    "notes",
+    "frontend"
+  ],
+  "author": "Justin Brazeau",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brz0/react-bulletin-app/issues"
+  },
+  "homepage": "https://github.com/brz0/react-bulletin-app#readme",
+  "devDependencies": {
+    "babel-cli": "^6.4.0",
+    "babel-preset-react": "^6.5.0",
+    "httpster": "^1.0.3"
+  }
+}

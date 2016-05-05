@@ -1,0 +1,94 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:300);
+
+body,
+html,
+div.board,
+div#react-container {
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+div.board {
+    background-color: #2b2d42;
+    width: 100%;
+}
+
+div.note {
+    min-height: 150px;
+    min-width: 150px;
+    max-width: 500px;
+    background-color: #edf2f4;
+    border-top: 5px solid #ef233c;
+    border-radius: 4px;
+    margin: 2px 0;
+    position: absolute;
+    cursor: -webkit-grab;
+    -webkit-box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, .2);
+    box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, .2);
+}
+
+div.note:active {
+    cursor: -webkit-grabbing;
+}
+
+div.note p {
+    font-size: 22px;
+    padding: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+div.note:hover > span {
+    opacity: 1;
+}
+
+div.note > span {
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
+    opacity: 0;
+    transition: opacity .25s linear;
+}
+
+div.note button {
+    margin: 2px;
+}
+
+div.note > textarea {
+    background: rgba(255, 255, 255, .5);
+    font-family: "Roboto",sans-serif;
+    font-size: 22px;
+}
+
+.glyphicon-plus {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+
+.btn-danger {
+    background-color: #d90429;
+    border: none;
+}
+.btn-danger:hover {
+    background-color: #ef233c;
+    border: none;
+}
+.btn-primary {
+    background-color: #8d99ae;
+    border: none;
+}
+.btn-primary:hover {
+    background-color: #47e5bc;
+    border: none;
+}
+.btn-save {
+    float: right;
+    width: auto !important;
+    margin-top: 7px;
+    margin-right: 7px;
+}
