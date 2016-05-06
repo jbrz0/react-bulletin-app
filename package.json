@@ -31,7 +31,6 @@
   "homepage": "https://github.com/brz0/react-bulletin-app#readme",
   "devDependencies": {
     "babel-cli": "^6.4.0",
-    "babel-preset-react": "^6.5.0",
-    "httpster": "^1.0.3"
+    "babel-preset-react": "^6.5.0"
   }
 }
